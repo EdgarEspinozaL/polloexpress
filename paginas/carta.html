@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Polleria Pollo Express</title>
+    <link href="/imagenes/polleria pollo express.ico" rel="shortcut icon"/>
+    <link rel="stylesheet" href="/css/estilocarta.css" />
+    <script src="/js/carta.js"></script>
+</head>
+<body>
+    <div class="page-nav">
+        <h1>LA CARTA</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+        <button  class="back-button" onclick="back()">Volver</button>
+
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h3>POLLO SOLO</h3>
+            <img src="/imagenes/POLLO SOLO.jpg"  height="300px"/>
+            <h1>s/40</h1>
+            <button class="button-add" onclick="add('POLLO SOLO', 40)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>POLLO + PAPAS</h3>
+            <img src="/imagenes/POLLO PAPAS.jpeg" height="300px"  />
+            <h1>s/60</h1>
+            <button class="button-add" onclick="add('POLLO + PAPAS', 60)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>POLLO + PAPAS + ENSALADA</h3>
+            <img src="/imagenes/POLLO PAPAS  Y ENSALADA.jpg" width="300px"  height="300px"/>
+            <h1>s/70</h1>
+            <button class="button-add" onclick="add('POLLO + PAPAS + ENSALADA', 70)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>INCA KOLA</h3>
+            <img src="/imagenes/inka kola.jpg" width="300px" height="300px"/>
+            <h1>s/5</h1>
+            <button class="button-add" onclick="add('INCA KOLA', 5)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>COCA COLA</h3>
+            <img src="/imagenes/coca  cola.jpg" width="300px" height="300px"/>
+            <h1>s/5</h1>
+            <button class="button-add" onclick="add('COCA COLA', 5)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>ENSALADA</h3>
+            <img src="/imagenes/ENSALADA.jpg"  width="300px" height="300px"/>
+            <h1>s/10</h1>
+            <button class="button-add" onclick="add('ENSALADA', 10)">Agregar</button>
+        </div>
+    </div>
+</body> 
