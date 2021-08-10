@@ -1,5 +1,5 @@
 body{
-    background-color: #faea5abb;
+    background-color: #e0e0e0;
 }
 
 header{
@@ -80,7 +80,7 @@ nav > ul{
     border-radius: 5px;
     background: #cc3333;
     display: table;
-    width: 100%;
+    width: 99%;
 }
 
 nav > ul > li{
