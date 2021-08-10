@@ -64,7 +64,7 @@ nav li{
 nav a{
     color: #ddd;
     display: block;
-    padding: 0 105px 0 105px;
+    padding: 0 100px 0 100px;
     text-decoration: none;
     transition: -4s;
 }
