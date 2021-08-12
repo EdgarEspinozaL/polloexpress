@@ -137,14 +137,6 @@ ul.slider li{
     text-align: center;
 }
 
-button{ 
-    color:black;
-    background-color: #cc3333;
-    margin: 5px ;
-    padding: 10px 10px 10px;
-    font-size: 30px;
-    border-radius: 100%;
-}
 
 .carrusel h1{
     color: #ca0505;
@@ -174,8 +166,26 @@ button{
 
 iframe{
     float: right;
-    border: 2px solid white;
+    border: 2px solid #f34646;
+    border-radius: 10px;
+    padding-top: 1px; 
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.navegador-buscador{
+    margin: 50px 40px 0 40px;
+    border: 2px solid #f34646;
     border-radius: 10px; 
+    width: 1250px; 
+    height: 600px;
+}
+
+.orden-buscador{
+    text-align: left;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 .cajatexto{
