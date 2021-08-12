@@ -231,6 +231,7 @@ footer{
     --facebook: blue;
     --instagram: #8b0a31;
     --twitter: #60afce;
+    --whatsapp: #01912c;
 }
 
 .redes-container{
@@ -287,6 +288,10 @@ footer{
 
 .redes-container ul li .twitter{
     background-color: var(--twitter);
+}
+
+.redes-container ul li .whatsapp{
+    background-color: var(--whatsapp);
 }
 
 
