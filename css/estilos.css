@@ -237,11 +237,11 @@ footer{
 
 .redes-container{
     border-right: 1px solid black;
-    padding-right: 70px;
-    margin-left: 100px;
+    padding-right: 30px;
+    margin-left: 10px;
     margin-top: 40px;
     padding-top: 20px;
-    padding-left: 100px;
+    padding-left: 20px;
     float: left;
     display: flex;
     height: 30vh;
@@ -297,7 +297,7 @@ footer{
 
 
 .texto-footer{
-    padding-right: 200px;
+    padding-right: 130px;
     padding-top: 5px;
     float: right;
 }
