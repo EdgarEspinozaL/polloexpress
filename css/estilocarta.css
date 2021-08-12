@@ -5,9 +5,9 @@ body {
 }
 
 .back-button{
-    background-color: rgba(102, 94, 214, 0.979);
+    background-color: #e2ddddfa;
     color: black;
-    border: 2px solid rgb(68, 0, 255); 
+    border: 2px solid #f34646;
     transition-duration: 0.4s;
     position: absolute;
     left: 15px;
@@ -15,7 +15,7 @@ body {
 }
 
 .back-button:hover{
-    background-color: #1cdbab; 
+    background-color: #9c413b; 
     color: black;
 }
 
@@ -36,9 +36,9 @@ button {
 }
 
 .button-checkout {
-    background-color: rgba(102, 94, 214, 0.979);
+    background-color: #e2ddddfa;
     color: black;
-    border: 2px solid rgb(68, 0, 255); 
+    border: 2px solid #f34646;
     transition-duration: 0.4s;
     position: absolute;
     right: 15px;
@@ -46,7 +46,7 @@ button {
 }
 
 .button-checkout:hover {
-    background-color: #1cdbab; 
+    background-color: #9c413b; 
     color: black;
 }
 
@@ -62,7 +62,7 @@ button {
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     background-color: white;
-    border: 2px solid rgb(68, 0, 255);
+    border: 2px solid #f34646;
     border-radius: 5px;
 }
 
@@ -71,7 +71,7 @@ button {
   }
 
 .product-container img {
-    border: 2px solid rgb(68, 0, 255);
+    border: 2px solid #f34646;
     border-radius: 5px;
     width: 300px;
 }
@@ -82,9 +82,9 @@ button {
 }
 
 .button-add {
-    background-color: rgba(102, 94, 214, 0.979);
+    background-color: #e2ddddfa;
     color: black;
-    border: 2px solid rgb(68, 0, 255); 
+    border: 2px solid #f34646;
     transition-duration: 0.4s;
     position: absolute;
     right: 15px;
@@ -92,6 +92,6 @@ button {
 }
 
 .button-add:hover {
-    background-color: #1cdbab; 
+    background-color: #9c413b; 
     color: black;
 } 
