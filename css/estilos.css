@@ -79,7 +79,8 @@ nav a{
 
 nav a:hover{
     border-radius: 5px;
-    background: #f36100e0;
+    background: #4d0000e0;
+    color: #ddd;
 }
 
 /* Primer Nivel de barra de opciones*/
@@ -159,7 +160,7 @@ button{
         padding: 10px;
         background-color: white;
         color: black;
-        border: 2px solid rgb(68, 0, 255);
+        border: 2px solid #f34646;
         border-radius: 10px; 
         transition-duration: 0.4s;
         position: relative;
@@ -167,13 +168,13 @@ button{
 }
 
 .volver:hover{
-    background: rgba(102, 94, 214, 0.979);
+    background: #9c413b; 
     color: black;
 }
 
 iframe{
     float: right;
-    border: 2px solid rgb(68, 0, 255);
+    border: 2px solid white;
     border-radius: 10px; 
 }
 
@@ -181,15 +182,15 @@ iframe{
     margin-top: 3px;
     text-align: center;
     background: white;
-    border: 2px solid rgb(68, 0, 255);
+    border: 2px solid #f34646;
     border-radius: 10px; 
-    width: 720px;
+    width: auto;
     height: auto;
-    float: left;
+    margin: 50px 40px 0 40px;
 }
 
 audio{
-    border: 2px solid rgb(68, 0, 255);
+    border: 2px solid #f34646;
     border-radius: 10px; 
     margin: 5px;
 }
@@ -237,7 +238,7 @@ footer{
 .redes-container{
     border-right: 1px solid black;
     padding-right: 70px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 40px;
     padding-top: 20px;
     padding-left: 100px;
